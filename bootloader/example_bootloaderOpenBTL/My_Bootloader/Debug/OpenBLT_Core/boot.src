@@ -1,0 +1,267 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc9892a --dep-file=OpenBLT_Core/boot.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\App -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Configurations -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\Infra -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\Infra\\\\Platform -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\Infra\\\\Sfr -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\Service -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\Service\\\\CpuGeneric -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Std -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Flash -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Flash\\\\Std -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican\\\\Std -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\OpenBLT_Core -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\OpenBLT_Core\\\\TRICORE_TC2 -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\OpenBLT_Core\\\\TRICORE_TC2\\\\Tasking -g2 -w544 -w557 -t2 --language=+volatile -N0 -O1 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o OpenBLT_Core/boot.src ../OpenBLT_Core/boot.c"
+	.compiler_name		"ctc"
+	;source	'../OpenBLT_Core/boot.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.boot.BootInit',code,cluster('BootInit')
+	.sect	'.text.boot.BootInit'
+	.align	2
+	
+	.global	BootInit
+; Function BootInit
+.L3:
+BootInit:	.type	func
+	call	CpuInit
+.L30:
+	call	CopInit
+.L31:
+	call	TimerInit
+.L32:
+	call	NvmInit
+.L33:
+	call	ComInit
+.L34:
+	j	BackDoorInit
+.L20:
+	
+__BootInit_function_end:
+	.size	BootInit,__BootInit_function_end-BootInit
+.L14:
+	; End of function
+	
+	.sdecl	'.text.boot.BootTask',code,cluster('BootTask')
+	.sect	'.text.boot.BootTask'
+	.align	2
+	
+	.global	BootTask
+; Function BootTask
+.L5:
+BootTask:	.type	func
+	call	CopService
+.L39:
+	call	TimerUpdate
+.L40:
+	call	ComTask
+.L41:
+	j	BackDoorCheck
+.L21:
+	
+__BootTask_function_end:
+	.size	BootTask,__BootTask_function_end-BootTask
+.L19:
+	; End of function
+	
+	.calls	'BootInit','CpuInit'
+	.calls	'BootInit','CopInit'
+	.calls	'BootInit','TimerInit'
+	.calls	'BootInit','NvmInit'
+	.calls	'BootInit','ComInit'
+	.calls	'BootInit','BackDoorInit'
+	.calls	'BootTask','CopService'
+	.calls	'BootTask','TimerUpdate'
+	.calls	'BootTask','ComTask'
+	.calls	'BootTask','BackDoorCheck'
+	.calls	'BootInit','',0
+	.extern	CpuInit
+	.extern	CopInit
+	.extern	CopService
+	.extern	NvmInit
+	.extern	TimerInit
+	.extern	TimerUpdate
+	.extern	BackDoorInit
+	.extern	BackDoorCheck
+	.extern	ComInit
+	.extern	ComTask
+	.calls	'BootTask','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L7:
+	.word	370
+	.half	3
+	.word	.L8
+	.byte	4
+.L6:
+	.byte	1
+	.byte	'../OpenBLT_Core/boot.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Aurix_Tool\\Target_TC275\\My_Bootloader\\Debug\\',0,12,1
+	.word	.L9
+	.byte	2
+	.byte	'CpuInit',0,1,35,6,1,1,1,1,2
+	.byte	'CopInit',0,2,34,6,1,1,1,1,2
+	.byte	'CopService',0,2,35,6,1,1,1,1,2
+	.byte	'NvmInit',0,3,34,10,1,1,1,1,2
+	.byte	'TimerInit',0,4,34,12,1,1,1,1,2
+	.byte	'TimerUpdate',0,4,35,12,1,1,1,1,2
+	.byte	'BackDoorInit',0,5,34,12,1,1,1,1,2
+	.byte	'BackDoorCheck',0,5,35,12,1,1,1,1,2
+	.byte	'ComInit',0,6,180,1,12,1,1,1,1,2
+	.byte	'ComTask',0,6,184,1,12,1,1,1,1,3,1,4
+	.word	348
+	.byte	5
+	.byte	'__codeptr',0,7,1,1
+	.word	350
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L8:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,46,0,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0
+	.byte	3,21,0,54,15,0,0,4,15,0,73,19,0,0,5,22,0,3,8,58,15,59,15,57,15,73,19,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L9:
+	.word	.L23-.L22
+.L22:
+	.half	3
+	.word	.L25-.L24
+.L24:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\OpenBLT_Core\\cpu.h',0,0,0,0
+	.byte	'..\\OpenBLT_Core\\cop.h',0,0,0,0
+	.byte	'..\\OpenBLT_Core\\nvm.h',0,0,0,0
+	.byte	'..\\OpenBLT_Core\\timer.h',0,0,0,0
+	.byte	'..\\OpenBLT_Core\\backdoor.h',0,0,0,0
+	.byte	'..\\OpenBLT_Core\\com.h',0,0,0,0
+	.byte	'../OpenBLT_Core/boot.c',0,0,0,0,0
+.L25:
+.L23:
+	.sdecl	'.debug_info',debug,cluster('BootInit')
+	.sect	'.debug_info'
+.L10:
+	.word	210
+	.half	3
+	.word	.L11
+	.byte	4,1
+	.byte	'../OpenBLT_Core/boot.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Aurix_Tool\\Target_TC275\\My_Bootloader\\Debug\\',0,12,1
+	.word	.L13,.L12
+	.byte	2
+	.word	.L6
+	.byte	3
+	.byte	'BootInit',0,1,40,6,1,1,1
+	.word	.L3,.L20,.L2
+	.byte	4
+	.word	.L3,.L20
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('BootInit')
+	.sect	'.debug_abbrev'
+.L11:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('BootInit')
+	.sect	'.debug_line'
+.L12:
+	.word	.L27-.L26
+.L26:
+	.half	3
+	.word	.L29-.L28
+.L28:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../OpenBLT_Core/boot.c',0,0,0,0,0
+.L29:
+	.byte	5,10,7,0,5,2
+	.word	.L3
+	.byte	3,42,1,9
+	.half	.L30-.L3
+	.byte	3,2,1,5,12,9
+	.half	.L31-.L30
+	.byte	3,2,1,5,10,9
+	.half	.L32-.L31
+	.byte	3,6,1,9
+	.half	.L33-.L32
+	.byte	3,7,1,5,15,9
+	.half	.L34-.L33
+	.byte	3,17,1,5,1,7,9
+	.half	.L14-.L34
+	.byte	3,1,0,1,1
+.L27:
+	.sdecl	'.debug_ranges',debug,cluster('BootInit')
+	.sect	'.debug_ranges'
+.L13:
+	.word	-1,.L3,0,.L14-.L3,0,0
+	.sdecl	'.debug_info',debug,cluster('BootTask')
+	.sect	'.debug_info'
+.L15:
+	.word	210
+	.half	3
+	.word	.L16
+	.byte	4,1
+	.byte	'../OpenBLT_Core/boot.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Aurix_Tool\\Target_TC275\\My_Bootloader\\Debug\\',0,12,1
+	.word	.L18,.L17
+	.byte	2
+	.word	.L6
+	.byte	3
+	.byte	'BootTask',0,1,86,6,1,1,1
+	.word	.L5,.L21,.L4
+	.byte	4
+	.word	.L5,.L21
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('BootTask')
+	.sect	'.debug_abbrev'
+.L16:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('BootTask')
+	.sect	'.debug_line'
+.L17:
+	.word	.L36-.L35
+.L35:
+	.half	3
+	.word	.L38-.L37
+.L37:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../OpenBLT_Core/boot.c',0,0,0,0,0
+.L38:
+	.byte	5,13,7,0,5,2
+	.word	.L5
+	.byte	3,216,0,1,5,14,9
+	.half	.L39-.L5
+	.byte	3,2,1,5,10,9
+	.half	.L40-.L39
+	.byte	3,7,1,5,16,9
+	.half	.L41-.L40
+	.byte	3,7,1,5,1,7,9
+	.half	.L19-.L41
+	.byte	3,1,0,1,1
+.L36:
+	.sdecl	'.debug_ranges',debug,cluster('BootTask')
+	.sect	'.debug_ranges'
+.L18:
+	.word	-1,.L5,0,.L19-.L5,0,0
+	.sdecl	'.debug_loc',debug,cluster('BootInit')
+	.sect	'.debug_loc'
+.L2:
+	.word	-1,.L3,0,.L20-.L3
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('BootTask')
+	.sect	'.debug_loc'
+.L4:
+	.word	-1,.L5,0,.L21-.L5
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L42:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('BootInit')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L42,.L3,.L20-.L3
+	.sdecl	'.debug_frame',debug,cluster('BootTask')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L42,.L5,.L21-.L5
+	; Module end

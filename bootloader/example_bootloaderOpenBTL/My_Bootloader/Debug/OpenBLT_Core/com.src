@@ -1,0 +1,1460 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc11976a --dep-file=OpenBLT_Core/com.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\App -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Configurations -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\Infra -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\Infra\\\\Platform -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\Infra\\\\Sfr -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\Service -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\Service\\\\CpuGeneric -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Std -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Flash -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Flash\\\\Std -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican\\\\Std -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\OpenBLT_Core -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\OpenBLT_Core\\\\TRICORE_TC2 -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\OpenBLT_Core\\\\TRICORE_TC2\\\\Tasking -g2 -w544 -w557 -t2 --language=+volatile -N0 -O1 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o OpenBLT_Core/com.src ../OpenBLT_Core/com.c"
+	.compiler_name		"ctc"
+	;source	'../OpenBLT_Core/com.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.com.ComInit',code,cluster('ComInit')
+	.sect	'.text.com.ComInit'
+	.align	2
+	
+	.global	ComInit
+; Function ComInit
+.L26:
+ComInit:	.type	func
+	mov	d4,#0
+	call	ComTimeoutEnable
+.L156:
+	call	XcpInit
+.L157:
+	call	CanInit
+.L158:
+	movh.a	a15,#@his(comActiveInterface)
+.L159:
+	mov	d15,#2
+.L160:
+	st.b	[a15]@los(comActiveInterface),d15
+.L161:
+	call	Rs232Init
+.L162:
+	movh.a	a15,#@his(comActiveInterface)
+.L163:
+	mov	d15,#0
+.L164:
+	st.b	[a15]@los(comActiveInterface),d15
+.L165:
+	ret
+.L105:
+	
+__ComInit_function_end:
+	.size	ComInit,__ComInit_function_end-ComInit
+.L53:
+	; End of function
+	
+	.sdecl	'.text.com.ComTask',code,cluster('ComTask')
+	.sect	'.text.com.ComTask'
+	.align	2
+	
+	.global	ComTask
+; Function ComTask
+.L28:
+ComTask:	.type	func
+	sub.a	a10,#8
+.L131:
+	movh.a	a4,#@his(_999001_xcpCtoReqPacket)
+	lea	a4,[a4]@los(_999001_xcpCtoReqPacket)
+.L170:
+	mov.aa	a5,a10
+	call	CanReceivePacket
+.L171:
+	jne	d2,#1,.L2
+.L172:
+	movh.a	a15,#@his(comActiveInterface)
+.L173:
+	mov	d15,#2
+.L174:
+	st.b	[a15]@los(comActiveInterface),d15
+.L175:
+	mov	d4,#1
+	call	ComTimeoutEnable
+.L176:
+	movh.a	a4,#@his(_999001_xcpCtoReqPacket)
+	lea	a4,[a4]@los(_999001_xcpCtoReqPacket)
+.L177:
+	ld.bu	d4,[a10]
+	call	XcpPacketReceived
+.L2:
+	movh.a	a4,#@his(_999001_xcpCtoReqPacket)
+	lea	a4,[a4]@los(_999001_xcpCtoReqPacket)
+.L178:
+	mov.aa	a5,a10
+	call	Rs232ReceivePacket
+.L179:
+	jne	d2,#1,.L3
+.L180:
+	movh.a	a15,#@his(comActiveInterface)
+.L181:
+	mov	d15,#0
+.L182:
+	st.b	[a15]@los(comActiveInterface),d15
+.L183:
+	mov	d4,#1
+	call	ComTimeoutEnable
+.L184:
+	movh.a	a4,#@his(_999001_xcpCtoReqPacket)
+	lea	a4,[a4]@los(_999001_xcpCtoReqPacket)
+.L185:
+	ld.bu	d4,[a10]
+	call	XcpPacketReceived
+.L3:
+	j	ComTimeoutDetected
+.L106:
+	
+__ComTask_function_end:
+	.size	ComTask,__ComTask_function_end-ComTask
+.L58:
+	; End of function
+	
+	.sdecl	'.text.com.ComFree',code,cluster('ComFree')
+	.sect	'.text.com.ComFree'
+	.align	2
+	
+	.global	ComFree
+; Function ComFree
+.L30:
+ComFree:	.type	func
+	mov	d4,#0
+	j	ComTimeoutEnable
+.L110:
+	
+__ComFree_function_end:
+	.size	ComFree,__ComFree_function_end-ComFree
+.L63:
+	; End of function
+	
+	.sdecl	'.text.com.ComTransmitPacket',code,cluster('ComTransmitPacket')
+	.sect	'.text.com.ComTransmitPacket'
+	.align	2
+	
+	.global	ComTransmitPacket
+; Function ComTransmitPacket
+.L32:
+ComTransmitPacket:	.type	func
+	mov.aa	a15,a4
+.L133:
+	mov	d8,d4
+.L134:
+	movh.a	a2,#@his(comActiveInterface)
+	ld.bu	d15,[a2]@los(comActiveInterface)
+.L210:
+	jne	d15,#2,.L4
+.L211:
+	extr.u	d4,d8,#0,#8
+.L132:
+	call	CanTransmitPacket
+.L4:
+	movh.a	a2,#@his(comActiveInterface)
+	ld.bu	d15,[a2]@los(comActiveInterface)
+.L212:
+	jne	d15,#0,.L5
+.L213:
+	extr.u	d4,d8,#0,#8
+	mov.aa	a4,a15
+.L135:
+	call	Rs232TransmitPacket
+.L5:
+	call	XcpPacketTransmitted
+.L214:
+	j	ComTimeoutReset
+.L116:
+	
+__ComTransmitPacket_function_end:
+	.size	ComTransmitPacket,__ComTransmitPacket_function_end-ComTransmitPacket
+.L78:
+	; End of function
+	
+	.sdecl	'.text.com.ComGetActiveInterfaceMaxRxLen',code,cluster('ComGetActiveInterfaceMaxRxLen')
+	.sect	'.text.com.ComGetActiveInterfaceMaxRxLen'
+	.align	2
+	
+	.global	ComGetActiveInterfaceMaxRxLen
+; Function ComGetActiveInterfaceMaxRxLen
+.L34:
+ComGetActiveInterfaceMaxRxLen:	.type	func
+	movh.a	a15,#@his(comActiveInterface)
+	ld.bu	d15,[a15]@los(comActiveInterface)
+.L194:
+	jeq	d15,#2,.L6
+.L195:
+	jeq	d15,#3,.L7
+.L196:
+	jeq	d15,#4,.L8
+.L197:
+	j	.L9
+.L6:
+	mov	d2,#8
+.L136:
+	ret
+.L8:
+.L7:
+	mov	d2,#63
+.L137:
+	ret
+.L9:
+	mov	d2,#129
+.L138:
+	ret
+.L112:
+	
+__ComGetActiveInterfaceMaxRxLen_function_end:
+	.size	ComGetActiveInterfaceMaxRxLen,__ComGetActiveInterfaceMaxRxLen_function_end-ComGetActiveInterfaceMaxRxLen
+.L68:
+	; End of function
+	
+	.sdecl	'.text.com.ComGetActiveInterfaceMaxTxLen',code,cluster('ComGetActiveInterfaceMaxTxLen')
+	.sect	'.text.com.ComGetActiveInterfaceMaxTxLen'
+	.align	2
+	
+	.global	ComGetActiveInterfaceMaxTxLen
+; Function ComGetActiveInterfaceMaxTxLen
+.L36:
+ComGetActiveInterfaceMaxTxLen:	.type	func
+	movh.a	a15,#@his(comActiveInterface)
+	ld.bu	d15,[a15]@los(comActiveInterface)
+.L202:
+	jeq	d15,#2,.L13
+.L203:
+	jeq	d15,#3,.L14
+.L204:
+	jeq	d15,#4,.L15
+.L205:
+	j	.L16
+.L13:
+	mov	d2,#8
+.L139:
+	ret
+.L15:
+.L14:
+	mov	d2,#63
+.L140:
+	ret
+.L16:
+	mov	d2,#129
+.L141:
+	ret
+.L114:
+	
+__ComGetActiveInterfaceMaxTxLen_function_end:
+	.size	ComGetActiveInterfaceMaxTxLen,__ComGetActiveInterfaceMaxTxLen_function_end-ComGetActiveInterfaceMaxTxLen
+.L73:
+	; End of function
+	
+	.sdecl	'.text.com.ComIsConnected',code,cluster('ComIsConnected')
+	.sect	'.text.com.ComIsConnected'
+	.align	2
+	
+	.global	ComIsConnected
+; Function ComIsConnected
+.L38:
+ComIsConnected:	.type	func
+	call	XcpIsConnected
+.L219:
+	ne	d2,d2,#0
+.L220:
+	ret
+.L120:
+	
+__ComIsConnected_function_end:
+	.size	ComIsConnected,__ComIsConnected_function_end-ComIsConnected
+.L83:
+	; End of function
+	
+	.sdecl	'.text.com.ComTimeoutEnable',code,cluster('ComTimeoutEnable')
+	.sect	'.text.com.ComTimeoutEnable'
+	.align	2
+	
+; Function ComTimeoutEnable
+.L40:
+ComTimeoutEnable:	.type	func
+	movh.a	a15,#@his(comTimeoutMonitoringActive)
+.L225:
+	st.b	[a15]@los(comTimeoutMonitoringActive),d4
+.L226:
+	j	ComTimeoutReset
+.L122:
+	
+__ComTimeoutEnable_function_end:
+	.size	ComTimeoutEnable,__ComTimeoutEnable_function_end-ComTimeoutEnable
+.L88:
+	; End of function
+	
+	.sdecl	'.text.com.ComTimeoutDetected',code,cluster('ComTimeoutDetected')
+	.sect	'.text.com.ComTimeoutDetected'
+	.align	2
+	
+; Function ComTimeoutDetected
+.L42:
+ComTimeoutDetected:	.type	func
+	mov	d8,#0
+.L142:
+	call	ComIsConnected
+.L231:
+	jeq	d2,#0,.L21
+.L232:
+	movh.a	a15,#@his(comTimeoutMonitoringActive)
+	ld.bu	d15,[a15]@los(comTimeoutMonitoringActive)
+.L233:
+	jne	d15,#1,.L22
+.L234:
+	call	TimerGet
+.L143:
+	movh.a	a15,#@his(comLastResponseTransmitTime)
+	ld.w	d15,[a15]@los(comLastResponseTransmitTime)
+.L145:
+	sub	d2,d15
+.L144:
+	mov	d15,#5000
+.L235:
+	jlt.u	d2,d15,.L23
+.L236:
+	mov	d4,#0
+	call	ComTimeoutEnable
+.L146:
+	mov	d8,#1
+.L23:
+.L22:
+.L21:
+	mov	d2,d8
+.L147:
+	ret
+.L124:
+	
+__ComTimeoutDetected_function_end:
+	.size	ComTimeoutDetected,__ComTimeoutDetected_function_end-ComTimeoutDetected
+.L93:
+	; End of function
+	
+	.sdecl	'.text.com.ComTimeoutReset',code,cluster('ComTimeoutReset')
+	.sect	'.text.com.ComTimeoutReset'
+	.align	2
+	
+; Function ComTimeoutReset
+.L44:
+ComTimeoutReset:	.type	func
+	movh.a	a15,#@his(comLastResponseTransmitTime)
+.L241:
+	call	TimerGet
+.L242:
+	st.w	[a15]@los(comLastResponseTransmitTime),d2
+.L243:
+	ret
+.L129:
+	
+__ComTimeoutReset_function_end:
+	.size	ComTimeoutReset,__ComTimeoutReset_function_end-ComTimeoutReset
+.L98:
+	; End of function
+	
+	.sdecl	'.data.com.comActiveInterface',data,cluster('comActiveInterface')
+	.sect	'.data.com.comActiveInterface'
+comActiveInterface:	.type	object
+	.size	comActiveInterface,1
+	.byte	6
+	.sdecl	'.bss.com.comTimeoutMonitoringActive',data,cluster('comTimeoutMonitoringActive')
+	.sect	'.bss.com.comTimeoutMonitoringActive'
+comTimeoutMonitoringActive:	.type	object
+	.size	comTimeoutMonitoringActive,1
+	.space	1
+	.sdecl	'.bss.com.comLastResponseTransmitTime',data,cluster('comLastResponseTransmitTime')
+	.sect	'.bss.com.comLastResponseTransmitTime'
+	.align	2
+comLastResponseTransmitTime:	.type	object
+	.size	comLastResponseTransmitTime,4
+	.space	4
+	.sdecl	'.bss.com._999001_xcpCtoReqPacket',data,cluster('_999001_xcpCtoReqPacket')
+	.sect	'.bss.com._999001_xcpCtoReqPacket'
+_999001_xcpCtoReqPacket:	.type	object
+	.size	_999001_xcpCtoReqPacket,129
+	.space	129
+	.calls	'ComInit','ComTimeoutEnable'
+	.calls	'ComInit','XcpInit'
+	.calls	'ComInit','CanInit'
+	.calls	'ComInit','Rs232Init'
+	.calls	'ComTask','CanReceivePacket'
+	.calls	'ComTask','ComTimeoutEnable'
+	.calls	'ComTask','XcpPacketReceived'
+	.calls	'ComTask','Rs232ReceivePacket'
+	.calls	'ComTask','ComTimeoutDetected'
+	.calls	'ComFree','ComTimeoutEnable'
+	.calls	'ComTransmitPacket','CanTransmitPacket'
+	.calls	'ComTransmitPacket','Rs232TransmitPacket'
+	.calls	'ComTransmitPacket','XcpPacketTransmitted'
+	.calls	'ComTransmitPacket','ComTimeoutReset'
+	.calls	'ComIsConnected','XcpIsConnected'
+	.calls	'ComTimeoutEnable','ComTimeoutReset'
+	.calls	'ComTimeoutDetected','ComIsConnected'
+	.calls	'ComTimeoutDetected','TimerGet'
+	.calls	'ComTimeoutDetected','ComTimeoutEnable'
+	.calls	'ComTimeoutReset','TimerGet'
+	.calls	'ComInit','',0
+	.calls	'ComTask','',8
+	.calls	'ComFree','',0
+	.calls	'ComTransmitPacket','',0
+	.calls	'ComGetActiveInterfaceMaxRxLen','',0
+	.calls	'ComGetActiveInterfaceMaxTxLen','',0
+	.calls	'ComIsConnected','',0
+	.calls	'ComTimeoutEnable','',0
+	.calls	'ComTimeoutDetected','',0
+	.extern	TimerGet
+	.extern	XcpInit
+	.extern	XcpIsConnected
+	.extern	XcpPacketTransmitted
+	.extern	XcpPacketReceived
+	.extern	CanInit
+	.extern	CanTransmitPacket
+	.extern	CanReceivePacket
+	.extern	Rs232Init
+	.extern	Rs232TransmitPacket
+	.extern	Rs232ReceivePacket
+	.calls	'ComTimeoutReset','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L46:
+	.word	866
+	.half	3
+	.word	.L47
+	.byte	4
+.L45:
+	.byte	1
+	.byte	'../OpenBLT_Core/com.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Aurix_Tool\\Target_TC275\\My_Bootloader\\Debug\\',0,12,1
+	.word	.L48
+.L126:
+	.byte	2
+	.byte	'unsigned int',0,4,7,3
+	.byte	'TimerGet',0,1,36,12
+	.word	165
+	.byte	1,1,1,1,4
+	.byte	'XcpInit',0,2,130,2,10,1,1,1,1
+.L107:
+	.byte	2
+	.byte	'unsigned char',0,1,8,3
+	.byte	'XcpIsConnected',0,2,131,2,10
+	.word	219
+	.byte	1,1,1,1,4
+	.byte	'XcpPacketTransmitted',0,2,132,2,10,1,1,1,1
+.L117:
+	.byte	5
+	.word	219
+	.byte	6
+	.byte	'XcpPacketReceived',0,2,133,2,10,1,1,1,1,7
+	.byte	'data',0,2,133,2,39
+	.word	294
+	.byte	7
+	.byte	'len',0,2,133,2,55
+	.word	219
+	.byte	0
+.L109:
+	.byte	8,129,1
+	.word	219
+	.byte	9,128,1,0
+.L111:
+	.byte	2
+	.byte	'unsigned short int',0,2,7,4
+	.byte	'CanInit',0,3,35,10,1,1,1,1,6
+	.byte	'CanTransmitPacket',0,3,36,10,1,1,1,1,7
+	.byte	'data',0,3,36,39
+	.word	294
+	.byte	7
+	.byte	'len',0,3,36,55
+	.word	219
+	.byte	0,10
+	.byte	'CanReceivePacket',0,3,37,10
+	.word	219
+	.byte	1,1,1,1,7
+	.byte	'data',0,3,37,38
+	.word	294
+	.byte	7
+	.byte	'len',0,3,37,55
+	.word	294
+	.byte	0,4
+	.byte	'Rs232Init',0,4,35,10,1,1,1,1,6
+	.byte	'Rs232TransmitPacket',0,4,36,10,1,1,1,1,7
+	.byte	'data',0,4,36,41
+	.word	294
+	.byte	7
+	.byte	'len',0,4,36,57
+	.word	219
+	.byte	0,10
+	.byte	'Rs232ReceivePacket',0,4,37,10
+	.word	219
+	.byte	1,1,1,1,7
+	.byte	'data',0,4,37,40
+	.word	294
+	.byte	7
+	.byte	'len',0,4,37,57
+	.word	294
+	.byte	0,11,1,5
+	.word	639
+	.byte	12
+	.byte	'__codeptr',0,5,1,1
+	.word	641
+	.byte	12
+	.byte	'blt_bool',0,6,45,25
+	.word	219
+	.byte	12
+	.byte	'blt_int8u',0,6,48,25
+	.word	219
+	.byte	12
+	.byte	'blt_int16u',0,6,50,25
+	.word	365
+	.byte	12
+	.byte	'blt_int32u',0,6,52,25
+	.word	165
+.L130:
+	.byte	13,7,165,1,9,1,14
+	.byte	'COM_IF_RS232',0,0,14
+	.byte	'COM_IF_MBRTU',0,1,14
+	.byte	'COM_IF_CAN',0,2,14
+	.byte	'COM_IF_USB',0,3,14
+	.byte	'COM_IF_CUSTOM',0,4,14
+	.byte	'COM_IF_NET',0,5,14
+	.byte	'COM_IF_OTHER',0,6,0,12
+	.byte	'tComInterfaceId',0,7,174,1,3
+	.word	737
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L47:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,46,0,3,8,58,15,59,15,57,15
+	.byte	73,19,54,15,39,12,63,12,60,12,0,0,4,46,0,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,5,15,0,73,19
+	.byte	0,0,6,46,1,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,7,5,0,3,8,58,15,59,15,57,15,73,19,0,0,8,1
+	.byte	1,11,15,73,19,0,0,9,33,0,47,15,0,0,10,46,1,3,8,58,15,59,15,57,15,73,19,54,15,39,12,63,12,60,12,0,0,11
+	.byte	21,0,54,15,0,0,12,22,0,3,8,58,15,59,15,57,15,73,19,0,0,13,4,1,58,15,59,15,57,15,11,15,0,0,14,40,0,3,8
+	.byte	28,13,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L48:
+	.word	.L149-.L148
+.L148:
+	.half	3
+	.word	.L151-.L150
+.L150:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\OpenBLT_Core\\\\TRICORE_TC2',0,0
+	.byte	'..\\OpenBLT_Core\\timer.h',0,0,0,0
+	.byte	'..\\OpenBLT_Core\\xcp.h',0,0,0,0
+	.byte	'..\\OpenBLT_Core\\can.h',0,0,0,0
+	.byte	'..\\OpenBLT_Core\\rs232.h',0,0,0,0
+	.byte	'../OpenBLT_Core/com.c',0,0,0,0
+	.byte	'types.h',0,1,0,0
+	.byte	'..\\OpenBLT_Core\\com.h',0,0,0,0,0
+.L151:
+.L149:
+	.sdecl	'.debug_info',debug,cluster('ComInit')
+	.sect	'.debug_info'
+.L49:
+	.word	208
+	.half	3
+	.word	.L50
+	.byte	4,1
+	.byte	'../OpenBLT_Core/com.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Aurix_Tool\\Target_TC275\\My_Bootloader\\Debug\\',0,12,1
+	.word	.L52,.L51
+	.byte	2
+	.word	.L45
+	.byte	3
+	.byte	'ComInit',0,1,119,6,1,1,1
+	.word	.L26,.L105,.L25
+	.byte	4
+	.word	.L26,.L105
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('ComInit')
+	.sect	'.debug_abbrev'
+.L50:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('ComInit')
+	.sect	'.debug_line'
+.L51:
+	.word	.L153-.L152
+.L152:
+	.half	3
+	.word	.L155-.L154
+.L154:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../OpenBLT_Core/com.c',0,0,0,0,0
+.L155:
+	.byte	5,20,7,0,5,2
+	.word	.L26
+	.byte	3,249,0,1,5,10,9
+	.half	.L156-.L26
+	.byte	3,2,1,9
+	.half	.L157-.L156
+	.byte	3,3,1,5,3,9
+	.half	.L158-.L157
+	.byte	3,2,1,5,24,9
+	.half	.L159-.L158
+	.byte	1,5,22,9
+	.half	.L160-.L159
+	.byte	1,5,12,9
+	.half	.L161-.L160
+	.byte	3,4,1,5,3,9
+	.half	.L162-.L161
+	.byte	3,2,1,5,24,9
+	.half	.L163-.L162
+	.byte	1,5,22,9
+	.half	.L164-.L163
+	.byte	1,5,1,9
+	.half	.L165-.L164
+	.byte	3,28,1,7,9
+	.half	.L53-.L165
+	.byte	0,1,1
+.L153:
+	.sdecl	'.debug_ranges',debug,cluster('ComInit')
+	.sect	'.debug_ranges'
+.L52:
+	.word	-1,.L26,0,.L53-.L26,0,0
+	.sdecl	'.debug_info',debug,cluster('ComTask')
+	.sect	'.debug_info'
+.L54:
+	.word	267
+	.half	3
+	.word	.L55
+	.byte	4,1
+	.byte	'../OpenBLT_Core/com.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Aurix_Tool\\Target_TC275\\My_Bootloader\\Debug\\',0,12,1
+	.word	.L57,.L56
+	.byte	2
+	.word	.L45
+	.byte	3
+	.byte	'ComTask',0,1,172,1,6,1,1,1
+	.word	.L28,.L106,.L27
+	.byte	4
+	.word	.L28,.L106
+	.byte	5
+	.byte	'xcpPacketLen',0,1,174,1,13
+	.word	.L107,.L108
+	.byte	6
+	.byte	'xcpCtoReqPacket',0,1,176,1,20
+	.word	.L109
+	.byte	5,3
+	.word	_999001_xcpCtoReqPacket
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('ComTask')
+	.sect	'.debug_abbrev'
+.L55:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,6,52,0
+	.byte	3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_line',debug,cluster('ComTask')
+	.sect	'.debug_line'
+.L56:
+	.word	.L167-.L166
+.L166:
+	.half	3
+	.word	.L169-.L168
+.L168:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../OpenBLT_Core/com.c',0,0,0,0,0
+.L169:
+	.byte	5,6,7,0,5,2
+	.word	.L28
+	.byte	3,171,1,1,5,25,9
+	.half	.L131-.L28
+	.byte	3,10,1,5,46,9
+	.half	.L170-.L131
+	.byte	1,5,3,9
+	.half	.L171-.L170
+	.byte	1,5,5,7,9
+	.half	.L172-.L171
+	.byte	3,3,1,5,26,9
+	.half	.L173-.L172
+	.byte	1,5,24,9
+	.half	.L174-.L173
+	.byte	1,5,22,9
+	.half	.L175-.L174
+	.byte	3,2,1,5,24,9
+	.half	.L176-.L175
+	.byte	3,2,1,5,44,9
+	.half	.L177-.L176
+	.byte	1,5,27,9
+	.half	.L2-.L177
+	.byte	3,4,1,5,48,9
+	.half	.L178-.L2
+	.byte	1,5,3,9
+	.half	.L179-.L178
+	.byte	1,5,5,7,9
+	.half	.L180-.L179
+	.byte	3,3,1,5,26,9
+	.half	.L181-.L180
+	.byte	1,5,24,9
+	.half	.L182-.L181
+	.byte	1,5,22,9
+	.half	.L183-.L182
+	.byte	3,2,1,5,24,9
+	.half	.L184-.L183
+	.byte	3,2,1,5,44,9
+	.half	.L185-.L184
+	.byte	1,5,25,9
+	.half	.L3-.L185
+	.byte	3,49,1,5,1,7,9
+	.half	.L58-.L3
+	.byte	3,8,0,1,1
+.L167:
+	.sdecl	'.debug_ranges',debug,cluster('ComTask')
+	.sect	'.debug_ranges'
+.L57:
+	.word	-1,.L28,0,.L58-.L28,0,0
+	.sdecl	'.debug_info',debug,cluster('ComFree')
+	.sect	'.debug_info'
+.L59:
+	.word	209
+	.half	3
+	.word	.L60
+	.byte	4,1
+	.byte	'../OpenBLT_Core/com.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Aurix_Tool\\Target_TC275\\My_Bootloader\\Debug\\',0,12,1
+	.word	.L62,.L61
+	.byte	2
+	.word	.L45
+	.byte	3
+	.byte	'ComFree',0,1,137,2,6,1,1,1
+	.word	.L30,.L110,.L29
+	.byte	4
+	.word	.L30,.L110
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('ComFree')
+	.sect	'.debug_abbrev'
+.L60:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('ComFree')
+	.sect	'.debug_line'
+.L61:
+	.word	.L187-.L186
+.L186:
+	.half	3
+	.word	.L189-.L188
+.L188:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../OpenBLT_Core/com.c',0,0,0,0,0
+.L189:
+	.byte	5,20,7,0,5,2
+	.word	.L30
+	.byte	3,139,2,1,5,1,9
+	.half	.L63-.L30
+	.byte	3,9,0,1,1
+.L187:
+	.sdecl	'.debug_ranges',debug,cluster('ComFree')
+	.sect	'.debug_ranges'
+.L62:
+	.word	-1,.L30,0,.L63-.L30,0,0
+	.sdecl	'.debug_info',debug,cluster('ComGetActiveInterfaceMaxRxLen')
+	.sect	'.debug_info'
+.L64:
+	.word	256
+	.half	3
+	.word	.L65
+	.byte	4,1
+	.byte	'../OpenBLT_Core/com.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Aurix_Tool\\Target_TC275\\My_Bootloader\\Debug\\',0,12,1
+	.word	.L67,.L66
+	.byte	2
+	.word	.L45
+	.byte	3
+	.byte	'ComGetActiveInterfaceMaxRxLen',0,1,223,2,12
+	.word	.L111
+	.byte	1,1,1
+	.word	.L34,.L112,.L33
+	.byte	4
+	.word	.L34,.L112
+	.byte	5
+	.byte	'result',0,1,225,2,14
+	.word	.L111,.L113
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('ComGetActiveInterfaceMaxRxLen')
+	.sect	'.debug_abbrev'
+.L65:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('ComGetActiveInterfaceMaxRxLen')
+	.sect	'.debug_line'
+.L66:
+	.word	.L191-.L190
+.L190:
+	.half	3
+	.word	.L193-.L192
+.L192:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../OpenBLT_Core/com.c',0,0,0,0,0
+.L193:
+	.byte	5,11,7,0,5,2
+	.word	.L34
+	.byte	3,227,2,1,5,10,9
+	.half	.L194-.L34
+	.byte	3,10,1,7,9
+	.half	.L195-.L194
+	.byte	3,4,1,7,9
+	.half	.L196-.L195
+	.byte	3,4,1,7,9
+	.half	.L197-.L196
+	.byte	1,5,14,9
+	.half	.L6-.L197
+	.byte	3,121,1,5,1,9
+	.half	.L136-.L6
+	.byte	3,21,1,5,14,7,9
+	.half	.L7-.L136
+	.byte	3,115,1,5,1,9
+	.half	.L137-.L7
+	.byte	3,13,1,5,14,7,9
+	.half	.L9-.L137
+	.byte	3,123,1,5,1,9
+	.half	.L138-.L9
+	.byte	3,5,1,7,9
+	.half	.L68-.L138
+	.byte	0,1,1
+.L191:
+	.sdecl	'.debug_ranges',debug,cluster('ComGetActiveInterfaceMaxRxLen')
+	.sect	'.debug_ranges'
+.L67:
+	.word	-1,.L34,0,.L68-.L34,0,0
+	.sdecl	'.debug_info',debug,cluster('ComGetActiveInterfaceMaxTxLen')
+	.sect	'.debug_info'
+.L69:
+	.word	256
+	.half	3
+	.word	.L70
+	.byte	4,1
+	.byte	'../OpenBLT_Core/com.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Aurix_Tool\\Target_TC275\\My_Bootloader\\Debug\\',0,12,1
+	.word	.L72,.L71
+	.byte	2
+	.word	.L45
+	.byte	3
+	.byte	'ComGetActiveInterfaceMaxTxLen',0,1,141,3,12
+	.word	.L111
+	.byte	1,1,1
+	.word	.L36,.L114,.L35
+	.byte	4
+	.word	.L36,.L114
+	.byte	5
+	.byte	'result',0,1,143,3,14
+	.word	.L111,.L115
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('ComGetActiveInterfaceMaxTxLen')
+	.sect	'.debug_abbrev'
+.L70:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('ComGetActiveInterfaceMaxTxLen')
+	.sect	'.debug_line'
+.L71:
+	.word	.L199-.L198
+.L198:
+	.half	3
+	.word	.L201-.L200
+.L200:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../OpenBLT_Core/com.c',0,0,0,0,0
+.L201:
+	.byte	5,11,7,0,5,2
+	.word	.L36
+	.byte	3,145,3,1,5,10,9
+	.half	.L202-.L36
+	.byte	3,10,1,7,9
+	.half	.L203-.L202
+	.byte	3,4,1,7,9
+	.half	.L204-.L203
+	.byte	3,4,1,7,9
+	.half	.L205-.L204
+	.byte	1,5,14,9
+	.half	.L13-.L205
+	.byte	3,121,1,5,1,9
+	.half	.L139-.L13
+	.byte	3,21,1,5,14,7,9
+	.half	.L14-.L139
+	.byte	3,115,1,5,1,9
+	.half	.L140-.L14
+	.byte	3,13,1,5,14,7,9
+	.half	.L16-.L140
+	.byte	3,123,1,5,1,9
+	.half	.L141-.L16
+	.byte	3,5,1,7,9
+	.half	.L73-.L141
+	.byte	0,1,1
+.L199:
+	.sdecl	'.debug_ranges',debug,cluster('ComGetActiveInterfaceMaxTxLen')
+	.sect	'.debug_ranges'
+.L72:
+	.word	-1,.L36,0,.L73-.L36,0,0
+	.sdecl	'.debug_info',debug,cluster('ComTransmitPacket')
+	.sect	'.debug_info'
+.L74:
+	.word	254
+	.half	3
+	.word	.L75
+	.byte	4,1
+	.byte	'../OpenBLT_Core/com.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Aurix_Tool\\Target_TC275\\My_Bootloader\\Debug\\',0,12,1
+	.word	.L77,.L76
+	.byte	2
+	.word	.L45
+	.byte	3
+	.byte	'ComTransmitPacket',0,1,159,2,6,1,1,1
+	.word	.L32,.L116,.L31
+	.byte	4
+	.byte	'data',0,1,159,2,35
+	.word	.L117,.L118
+	.byte	4
+	.byte	'len',0,1,159,2,52
+	.word	.L111,.L119
+	.byte	5
+	.word	.L32,.L116
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('ComTransmitPacket')
+	.sect	'.debug_abbrev'
+.L75:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('ComTransmitPacket')
+	.sect	'.debug_line'
+.L76:
+	.word	.L207-.L206
+.L206:
+	.half	3
+	.word	.L209-.L208
+.L208:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../OpenBLT_Core/com.c',0,0,0,0,0
+.L209:
+	.byte	5,6,7,0,5,2
+	.word	.L32
+	.byte	3,158,2,1,5,7,9
+	.half	.L134-.L32
+	.byte	3,6,1,5,3,9
+	.half	.L210-.L134
+	.byte	1,5,29,7,9
+	.half	.L211-.L210
+	.byte	3,2,1,5,7,9
+	.half	.L4-.L211
+	.byte	3,7,1,5,3,9
+	.half	.L212-.L4
+	.byte	1,5,31,7,9
+	.half	.L213-.L212
+	.byte	3,2,1,5,23,9
+	.half	.L5-.L213
+	.byte	3,35,1,5,18,9
+	.half	.L214-.L5
+	.byte	3,2,1,5,1,7,9
+	.half	.L78-.L214
+	.byte	3,1,0,1,1
+.L207:
+	.sdecl	'.debug_ranges',debug,cluster('ComTransmitPacket')
+	.sect	'.debug_ranges'
+.L77:
+	.word	-1,.L32,0,.L78-.L32,0,0
+	.sdecl	'.debug_info',debug,cluster('ComIsConnected')
+	.sect	'.debug_info'
+.L79:
+	.word	241
+	.half	3
+	.word	.L80
+	.byte	4,1
+	.byte	'../OpenBLT_Core/com.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Aurix_Tool\\Target_TC275\\My_Bootloader\\Debug\\',0,12,1
+	.word	.L82,.L81
+	.byte	2
+	.word	.L45
+	.byte	3
+	.byte	'ComIsConnected',0,1,186,3,10
+	.word	.L107
+	.byte	1,1,1
+	.word	.L38,.L120,.L37
+	.byte	4
+	.word	.L38,.L120
+	.byte	5
+	.byte	'result',0,1,188,3,12
+	.word	.L107,.L121
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('ComIsConnected')
+	.sect	'.debug_abbrev'
+.L80:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('ComIsConnected')
+	.sect	'.debug_line'
+.L81:
+	.word	.L216-.L215
+.L215:
+	.half	3
+	.word	.L218-.L217
+.L217:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../OpenBLT_Core/com.c',0,0,0,0,0
+.L218:
+	.byte	5,21,7,0,5,2
+	.word	.L38
+	.byte	3,192,3,1,5,3,9
+	.half	.L219-.L38
+	.byte	1,5,1,9
+	.half	.L220-.L219
+	.byte	3,13,1,7,9
+	.half	.L83-.L220
+	.byte	0,1,1
+.L216:
+	.sdecl	'.debug_ranges',debug,cluster('ComIsConnected')
+	.sect	'.debug_ranges'
+.L82:
+	.word	-1,.L38,0,.L83-.L38,0,0
+	.sdecl	'.debug_info',debug,cluster('ComTimeoutEnable')
+	.sect	'.debug_info'
+.L84:
+	.word	237
+	.half	3
+	.word	.L85
+	.byte	4,1
+	.byte	'../OpenBLT_Core/com.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Aurix_Tool\\Target_TC275\\My_Bootloader\\Debug\\',0,12,1
+	.word	.L87,.L86
+	.byte	2
+	.word	.L45
+	.byte	3
+	.byte	'ComTimeoutEnable',0,1,215,3,13,1,1
+	.word	.L40,.L122,.L39
+	.byte	4
+	.byte	'enable',0,1,215,3,39
+	.word	.L107,.L123
+	.byte	5
+	.word	.L40,.L122
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('ComTimeoutEnable')
+	.sect	'.debug_abbrev'
+.L85:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('ComTimeoutEnable')
+	.sect	'.debug_line'
+.L86:
+	.word	.L222-.L221
+.L221:
+	.half	3
+	.word	.L224-.L223
+.L223:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../OpenBLT_Core/com.c',0,0,0,0,0
+.L224:
+	.byte	5,3,7,0,5,2
+	.word	.L40
+	.byte	3,217,3,1,5,30,9
+	.half	.L225-.L40
+	.byte	1,5,18,9
+	.half	.L226-.L225
+	.byte	3,1,1,5,1,7,9
+	.half	.L88-.L226
+	.byte	3,1,0,1,1
+.L222:
+	.sdecl	'.debug_ranges',debug,cluster('ComTimeoutEnable')
+	.sect	'.debug_ranges'
+.L87:
+	.word	-1,.L40,0,.L88-.L40,0,0
+	.sdecl	'.debug_info',debug,cluster('ComTimeoutDetected')
+	.sect	'.debug_info'
+.L89:
+	.word	292
+	.half	3
+	.word	.L90
+	.byte	4,1
+	.byte	'../OpenBLT_Core/com.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Aurix_Tool\\Target_TC275\\My_Bootloader\\Debug\\',0,12,1
+	.word	.L92,.L91
+	.byte	2
+	.word	.L45
+	.byte	3
+	.byte	'ComTimeoutDetected',0,1,228,3,17
+	.word	.L107
+	.byte	1,1
+	.word	.L42,.L124,.L41
+	.byte	4
+	.word	.L42,.L124
+	.byte	5
+	.byte	'result',0,1,230,3,14
+	.word	.L107,.L125
+	.byte	5
+	.byte	'currentTime',0,1,231,3,14
+	.word	.L126,.L127
+	.byte	5
+	.byte	'deltaTime',0,1,232,3,14
+	.word	.L126,.L128
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('ComTimeoutDetected')
+	.sect	'.debug_abbrev'
+.L90:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('ComTimeoutDetected')
+	.sect	'.debug_line'
+.L91:
+	.word	.L228-.L227
+.L227:
+	.half	3
+	.word	.L230-.L229
+.L229:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../OpenBLT_Core/com.c',0,0,0,0,0
+.L230:
+	.byte	5,21,7,0,5,2
+	.word	.L42
+	.byte	3,229,3,1,5,23,9
+	.half	.L142-.L42
+	.byte	3,7,1,5,8,9
+	.half	.L231-.L142
+	.byte	1,5,43,7,9
+	.half	.L232-.L231
+	.byte	1,5,70,9
+	.half	.L233-.L232
+	.byte	1,5,27,7,9
+	.half	.L234-.L233
+	.byte	3,5,1,5,31,9
+	.half	.L143-.L234
+	.byte	3,1,1,5,29,9
+	.half	.L145-.L143
+	.byte	1,5,22,9
+	.half	.L144-.L145
+	.byte	3,2,1,5,5,9
+	.half	.L235-.L144
+	.byte	1,5,24,7,9
+	.half	.L236-.L235
+	.byte	3,6,1,5,14,9
+	.half	.L146-.L236
+	.byte	3,2,1,5,3,9
+	.half	.L21-.L146
+	.byte	3,5,1,5,1,9
+	.half	.L147-.L21
+	.byte	3,1,1,7,9
+	.half	.L93-.L147
+	.byte	0,1,1
+.L228:
+	.sdecl	'.debug_ranges',debug,cluster('ComTimeoutDetected')
+	.sect	'.debug_ranges'
+.L92:
+	.word	-1,.L42,0,.L93-.L42,0,0
+	.sdecl	'.debug_info',debug,cluster('ComTimeoutReset')
+	.sect	'.debug_info'
+.L94:
+	.word	216
+	.half	3
+	.word	.L95
+	.byte	4,1
+	.byte	'../OpenBLT_Core/com.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Aurix_Tool\\Target_TC275\\My_Bootloader\\Debug\\',0,12,1
+	.word	.L97,.L96
+	.byte	2
+	.word	.L45
+	.byte	3
+	.byte	'ComTimeoutReset',0,1,140,4,13,1,1
+	.word	.L44,.L129,.L43
+	.byte	4
+	.word	.L44,.L129
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('ComTimeoutReset')
+	.sect	'.debug_abbrev'
+.L95:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('ComTimeoutReset')
+	.sect	'.debug_line'
+.L96:
+	.word	.L238-.L237
+.L237:
+	.half	3
+	.word	.L240-.L239
+.L239:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../OpenBLT_Core/com.c',0,0,0,0,0
+.L240:
+	.byte	5,3,7,0,5,2
+	.word	.L44
+	.byte	3,142,4,1,5,41,9
+	.half	.L241-.L44
+	.byte	1,5,31,9
+	.half	.L242-.L241
+	.byte	1,5,1,9
+	.half	.L243-.L242
+	.byte	3,1,1,7,9
+	.half	.L98-.L243
+	.byte	0,1,1
+.L238:
+	.sdecl	'.debug_ranges',debug,cluster('ComTimeoutReset')
+	.sect	'.debug_ranges'
+.L97:
+	.word	-1,.L44,0,.L98-.L44,0,0
+	.sdecl	'.debug_info',debug,cluster('comActiveInterface')
+	.sect	'.debug_info'
+.L99:
+	.word	196
+	.half	3
+	.word	.L100
+	.byte	4,1
+	.byte	'../OpenBLT_Core/com.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Aurix_Tool\\Target_TC275\\My_Bootloader\\Debug\\',0,12,1,2
+	.word	.L45
+	.byte	3
+	.byte	'comActiveInterface',0,5,102,24
+	.word	.L130
+	.byte	5,3
+	.word	comActiveInterface
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('comActiveInterface')
+	.sect	'.debug_abbrev'
+.L100:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('comTimeoutMonitoringActive')
+	.sect	'.debug_info'
+.L101:
+	.word	204
+	.half	3
+	.word	.L102
+	.byte	4,1
+	.byte	'../OpenBLT_Core/com.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Aurix_Tool\\Target_TC275\\My_Bootloader\\Debug\\',0,12,1,2
+	.word	.L45
+	.byte	3
+	.byte	'comTimeoutMonitoringActive',0,5,105,17
+	.word	.L107
+	.byte	5,3
+	.word	comTimeoutMonitoringActive
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('comTimeoutMonitoringActive')
+	.sect	'.debug_abbrev'
+.L102:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('comLastResponseTransmitTime')
+	.sect	'.debug_info'
+.L103:
+	.word	205
+	.half	3
+	.word	.L104
+	.byte	4,1
+	.byte	'../OpenBLT_Core/com.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Aurix_Tool\\Target_TC275\\My_Bootloader\\Debug\\',0,12,1,2
+	.word	.L45
+	.byte	3
+	.byte	'comLastResponseTransmitTime',0,5,110,19
+	.word	.L126
+	.byte	5,3
+	.word	comLastResponseTransmitTime
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('comLastResponseTransmitTime')
+	.sect	'.debug_abbrev'
+.L104:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_loc',debug,cluster('ComFree')
+	.sect	'.debug_loc'
+.L29:
+	.word	-1,.L30,0,.L110-.L30
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('ComGetActiveInterfaceMaxRxLen')
+	.sect	'.debug_loc'
+.L33:
+	.word	-1,.L34,0,.L112-.L34
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L113:
+	.word	-1,.L34,.L136-.L34,.L7-.L34
+	.half	1
+	.byte	82
+	.word	.L137-.L34,.L9-.L34
+	.half	1
+	.byte	82
+	.word	.L138-.L34,.L112-.L34
+	.half	1
+	.byte	82
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('ComGetActiveInterfaceMaxTxLen')
+	.sect	'.debug_loc'
+.L35:
+	.word	-1,.L36,0,.L114-.L36
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L115:
+	.word	-1,.L36,.L139-.L36,.L14-.L36
+	.half	1
+	.byte	82
+	.word	.L140-.L36,.L16-.L36
+	.half	1
+	.byte	82
+	.word	.L141-.L36,.L114-.L36
+	.half	1
+	.byte	82
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('ComInit')
+	.sect	'.debug_loc'
+.L25:
+	.word	-1,.L26,0,.L105-.L26
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('ComIsConnected')
+	.sect	'.debug_loc'
+.L37:
+	.word	-1,.L38,0,.L120-.L38
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L121:
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('ComTask')
+	.sect	'.debug_loc'
+.L27:
+	.word	-1,.L28,0,.L131-.L28
+	.half	2
+	.byte	138,0
+	.word	.L131-.L28,.L106-.L28
+	.half	2
+	.byte	138,8
+	.word	.L106-.L28,.L106-.L28
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L108:
+	.word	-1,.L28,0,.L106-.L28
+	.half	2
+	.byte	145,120
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('ComTimeoutDetected')
+	.sect	'.debug_loc'
+.L41:
+	.word	-1,.L42,0,.L124-.L42
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L127:
+	.word	-1,.L42,.L143-.L42,.L144-.L42
+	.half	1
+	.byte	82
+	.word	0,0
+.L128:
+	.word	-1,.L42,.L145-.L42,.L146-.L42
+	.half	1
+	.byte	82
+	.word	0,0
+.L125:
+	.word	-1,.L42,.L142-.L42,.L124-.L42
+	.half	1
+	.byte	88
+	.word	.L147-.L42,.L124-.L42
+	.half	1
+	.byte	82
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('ComTimeoutEnable')
+	.sect	'.debug_loc'
+.L39:
+	.word	-1,.L40,0,.L122-.L40
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L123:
+	.word	-1,.L40,0,.L122-.L40
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('ComTimeoutReset')
+	.sect	'.debug_loc'
+.L43:
+	.word	-1,.L44,0,.L129-.L44
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('ComTransmitPacket')
+	.sect	'.debug_loc'
+.L31:
+	.word	-1,.L32,0,.L116-.L32
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L118:
+	.word	-1,.L32,0,.L4-.L32
+	.half	1
+	.byte	100
+	.word	.L133-.L32,.L116-.L32
+	.half	1
+	.byte	111
+	.word	.L135-.L32,.L5-.L32
+	.half	1
+	.byte	100
+	.word	0,0
+.L119:
+	.word	-1,.L32,0,.L132-.L32
+	.half	1
+	.byte	84
+	.word	.L134-.L32,.L116-.L32
+	.half	1
+	.byte	88
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L244:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('ComInit')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L244,.L26,.L105-.L26
+	.sdecl	'.debug_frame',debug,cluster('ComTask')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L244,.L28,.L106-.L28
+	.byte	4
+	.word	(.L131-.L28)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L106-.L131)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('ComFree')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L244,.L30,.L110-.L30
+	.sdecl	'.debug_frame',debug,cluster('ComTransmitPacket')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L244,.L32,.L116-.L32
+	.sdecl	'.debug_frame',debug,cluster('ComGetActiveInterfaceMaxRxLen')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L244,.L34,.L112-.L34
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('ComGetActiveInterfaceMaxTxLen')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L244,.L36,.L114-.L36
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('ComIsConnected')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L244,.L38,.L120-.L38
+	.sdecl	'.debug_frame',debug,cluster('ComTimeoutEnable')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L244,.L40,.L122-.L40
+	.sdecl	'.debug_frame',debug,cluster('ComTimeoutDetected')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L244,.L42,.L124-.L42
+	.sdecl	'.debug_frame',debug,cluster('ComTimeoutReset')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L244,.L44,.L129-.L44
+	; Module end

@@ -1,0 +1,655 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc24572a --dep-file=OpenBLT_Core/backdoor.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\App -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Configurations -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\Infra -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\Infra\\\\Platform -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\Infra\\\\Sfr -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\Service -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\Service\\\\CpuGeneric -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Std -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Flash -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Flash\\\\Std -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican\\\\Std -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\OpenBLT_Core -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\OpenBLT_Core\\\\TRICORE_TC2 -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\OpenBLT_Core\\\\TRICORE_TC2\\\\Tasking -g2 -w544 -w557 -t2 --language=+volatile -N0 -O1 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o OpenBLT_Core/backdoor.src ../OpenBLT_Core/backdoor.c"
+	.compiler_name		"ctc"
+	;source	'../OpenBLT_Core/backdoor.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.backdoor.BackDoorInit',code,cluster('BackDoorInit')
+	.sect	'.text.backdoor.BackDoorInit'
+	.align	2
+	
+	.global	BackDoorInit
+; Function BackDoorInit
+.L8:
+BackDoorInit:	.type	func
+	movh.a	a15,#@his(backdoorOpen)
+.L68:
+	mov	d15,#1
+.L69:
+	st.b	[a15]@los(backdoorOpen),d15
+.L70:
+	call	BackDoorRestartTimer
+.L71:
+	j	BackDoorCheck
+.L52:
+	
+__BackDoorInit_function_end:
+	.size	BackDoorInit,__BackDoorInit_function_end-BackDoorInit
+.L25:
+	; End of function
+	
+	.sdecl	'.text.backdoor.BackDoorCheck',code,cluster('BackDoorCheck')
+	.sect	'.text.backdoor.BackDoorCheck'
+	.align	2
+	
+	.global	BackDoorCheck
+; Function BackDoorCheck
+.L10:
+BackDoorCheck:	.type	func
+	call	ComIsConnected
+.L76:
+	jeq	d2,#1,.L2
+.L77:
+	movh.a	a15,#@his(backdoorOpen)
+	ld.bu	d15,[a15]@los(backdoorOpen)
+.L78:
+	jne	d15,#1,.L3
+.L79:
+	call	TimerGet
+.L80:
+	movh.a	a15,#@his(backdoorExtensionTime)
+	ld.w	d15,[a15]@los(backdoorExtensionTime)
+.L81:
+	movh.a	a15,#@his(backdoorOpenTime)
+	ld.w	d0,[a15]@los(backdoorOpenTime)
+.L82:
+	add	d15,d0
+.L83:
+	addi	d15,d15,#500
+.L84:
+	jlt.u	d2,d15,.L4
+.L85:
+	movh.a	a15,#@his(backdoorOpen)
+.L86:
+	mov	d15,#0
+.L87:
+	st.b	[a15]@los(backdoorOpen),d15
+.L88:
+	j	CpuStartUserProgram
+.L4:
+.L3:
+.L2:
+	ret
+.L53:
+	
+__BackDoorCheck_function_end:
+	.size	BackDoorCheck,__BackDoorCheck_function_end-BackDoorCheck
+.L30:
+	; End of function
+	
+	.sdecl	'.text.backdoor.BackDoorSetExtension',code,cluster('BackDoorSetExtension')
+	.sect	'.text.backdoor.BackDoorSetExtension'
+	.align	2
+	
+	.global	BackDoorSetExtension
+; Function BackDoorSetExtension
+.L12:
+BackDoorSetExtension:	.type	func
+	movh.a	a15,#@his(backdoorExtensionTime)
+.L93:
+	st.w	[a15]@los(backdoorExtensionTime),d4
+.L94:
+	ret
+.L54:
+	
+__BackDoorSetExtension_function_end:
+	.size	BackDoorSetExtension,__BackDoorSetExtension_function_end-BackDoorSetExtension
+.L35:
+	; End of function
+	
+	.sdecl	'.text.backdoor.BackDoorGetExtension',code,cluster('BackDoorGetExtension')
+	.sect	'.text.backdoor.BackDoorGetExtension'
+	.align	2
+	
+	.global	BackDoorGetExtension
+; Function BackDoorGetExtension
+.L14:
+BackDoorGetExtension:	.type	func
+	movh.a	a15,#@his(backdoorExtensionTime)
+	ld.w	d2,[a15]@los(backdoorExtensionTime)
+.L99:
+	ret
+.L57:
+	
+__BackDoorGetExtension_function_end:
+	.size	BackDoorGetExtension,__BackDoorGetExtension_function_end-BackDoorGetExtension
+.L40:
+	; End of function
+	
+	.sdecl	'.text.backdoor.BackDoorRestartTimer',code,cluster('BackDoorRestartTimer')
+	.sect	'.text.backdoor.BackDoorRestartTimer'
+	.align	2
+	
+	.global	BackDoorRestartTimer
+; Function BackDoorRestartTimer
+.L16:
+BackDoorRestartTimer:	.type	func
+	movh.a	a15,#@his(backdoorOpen)
+	ld.bu	d15,[a15]@los(backdoorOpen)
+.L104:
+	jne	d15,#1,.L6
+.L105:
+	movh.a	a15,#@his(backdoorOpenTime)
+.L106:
+	call	TimerGet
+.L107:
+	st.w	[a15]@los(backdoorOpenTime),d2
+.L6:
+	ret
+.L58:
+	
+__BackDoorRestartTimer_function_end:
+	.size	BackDoorRestartTimer,__BackDoorRestartTimer_function_end-BackDoorRestartTimer
+.L45:
+	; End of function
+	
+	.sdecl	'.bss.backdoor.backdoorOpen',data,cluster('backdoorOpen')
+	.sect	'.bss.backdoor.backdoorOpen'
+backdoorOpen:	.type	object
+	.size	backdoorOpen,1
+	.space	1
+	.sdecl	'.bss.backdoor.backdoorOpenTime',data,cluster('backdoorOpenTime')
+	.sect	'.bss.backdoor.backdoorOpenTime'
+	.align	2
+backdoorOpenTime:	.type	object
+	.size	backdoorOpenTime,4
+	.space	4
+	.sdecl	'.data.backdoor.backdoorExtensionTime',data,cluster('backdoorExtensionTime')
+	.sect	'.data.backdoor.backdoorExtensionTime'
+	.align	2
+backdoorExtensionTime:	.type	object
+	.size	backdoorExtensionTime,4
+	.space	4
+	.calls	'BackDoorInit','BackDoorRestartTimer'
+	.calls	'BackDoorInit','BackDoorCheck'
+	.calls	'BackDoorCheck','ComIsConnected'
+	.calls	'BackDoorCheck','TimerGet'
+	.calls	'BackDoorCheck','CpuStartUserProgram'
+	.calls	'BackDoorRestartTimer','TimerGet'
+	.calls	'BackDoorInit','',0
+	.calls	'BackDoorCheck','',0
+	.calls	'BackDoorSetExtension','',0
+	.calls	'BackDoorGetExtension','',0
+	.extern	CpuStartUserProgram
+	.extern	TimerGet
+	.extern	ComIsConnected
+	.calls	'BackDoorRestartTimer','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L18:
+	.word	338
+	.half	3
+	.word	.L19
+	.byte	4
+.L17:
+	.byte	1
+	.byte	'../OpenBLT_Core/backdoor.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Aurix_Tool\\Target_TC275\\My_Bootloader\\Debug\\',0,12,1
+	.word	.L20
+	.byte	2
+	.byte	'CpuStartUserProgram',0,1,36,6,1,1,1,1
+.L55:
+	.byte	3
+	.byte	'unsigned int',0,4,7,4
+	.byte	'TimerGet',0,2,36,12
+	.word	198
+	.byte	1,1,1,1
+.L59:
+	.byte	3
+	.byte	'unsigned char',0,1,8,4
+	.byte	'ComIsConnected',0,3,189,1,12
+	.word	235
+	.byte	1,1,1,1,5,1,6
+	.word	280
+	.byte	7
+	.byte	'__codeptr',0,4,1,1
+	.word	282
+	.byte	7
+	.byte	'blt_bool',0,5,45,25
+	.word	235
+	.byte	7
+	.byte	'blt_int32u',0,5,52,25
+	.word	198
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L19:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,46,0,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0
+	.byte	3,36,0,3,8,11,15,62,15,0,0,4,46,0,3,8,58,15,59,15,57,15,73,19,54,15,39,12,63,12,60,12,0,0,5,21,0,54,15
+	.byte	0,0,6,15,0,73,19,0,0,7,22,0,3,8,58,15,59,15,57,15,73,19,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L20:
+	.word	.L61-.L60
+.L60:
+	.half	3
+	.word	.L63-.L62
+.L62:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\OpenBLT_Core\\\\TRICORE_TC2',0,0
+	.byte	'..\\OpenBLT_Core\\cpu.h',0,0,0,0
+	.byte	'..\\OpenBLT_Core\\timer.h',0,0,0,0
+	.byte	'..\\OpenBLT_Core\\com.h',0,0,0,0
+	.byte	'../OpenBLT_Core/backdoor.c',0,0,0,0
+	.byte	'types.h',0,1,0,0,0
+.L63:
+.L61:
+	.sdecl	'.debug_info',debug,cluster('BackDoorInit')
+	.sect	'.debug_info'
+.L21:
+	.word	218
+	.half	3
+	.word	.L22
+	.byte	4,1
+	.byte	'../OpenBLT_Core/backdoor.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Aurix_Tool\\Target_TC275\\My_Bootloader\\Debug\\',0,12,1
+	.word	.L24,.L23
+	.byte	2
+	.word	.L17
+	.byte	3
+	.byte	'BackDoorInit',0,1,85,6,1,1,1
+	.word	.L8,.L52,.L7
+	.byte	4
+	.word	.L8,.L52
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('BackDoorInit')
+	.sect	'.debug_abbrev'
+.L22:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('BackDoorInit')
+	.sect	'.debug_line'
+.L23:
+	.word	.L65-.L64
+.L64:
+	.half	3
+	.word	.L67-.L66
+.L66:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../OpenBLT_Core/backdoor.c',0,0,0,0,0
+.L67:
+	.byte	5,3,7,0,5,2
+	.word	.L8
+	.byte	3,235,0,1,5,18,9
+	.half	.L68-.L8
+	.byte	1,5,16,9
+	.half	.L69-.L68
+	.byte	1,5,23,9
+	.half	.L70-.L69
+	.byte	3,1,1,5,16,9
+	.half	.L71-.L70
+	.byte	3,3,1,5,1,7,9
+	.half	.L25-.L71
+	.byte	3,1,0,1,1
+.L65:
+	.sdecl	'.debug_ranges',debug,cluster('BackDoorInit')
+	.sect	'.debug_ranges'
+.L24:
+	.word	-1,.L8,0,.L25-.L8,0,0
+	.sdecl	'.debug_info',debug,cluster('BackDoorCheck')
+	.sect	'.debug_info'
+.L26:
+	.word	219
+	.half	3
+	.word	.L27
+	.byte	4,1
+	.byte	'../OpenBLT_Core/backdoor.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Aurix_Tool\\Target_TC275\\My_Bootloader\\Debug\\',0,12,1
+	.word	.L29,.L28
+	.byte	2
+	.word	.L17
+	.byte	3
+	.byte	'BackDoorCheck',0,1,124,6,1,1,1
+	.word	.L10,.L53,.L9
+	.byte	4
+	.word	.L10,.L53
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('BackDoorCheck')
+	.sect	'.debug_abbrev'
+.L27:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('BackDoorCheck')
+	.sect	'.debug_line'
+.L28:
+	.word	.L73-.L72
+.L72:
+	.half	3
+	.word	.L75-.L74
+.L74:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../OpenBLT_Core/backdoor.c',0,0,0,0,0
+.L75:
+	.byte	5,21,7,0,5,2
+	.word	.L10
+	.byte	3,130,1,1,5,3,9
+	.half	.L76-.L10
+	.byte	1,5,7,7,9
+	.half	.L77-.L76
+	.byte	3,17,1,5,3,9
+	.half	.L78-.L77
+	.byte	1,5,17,7,9
+	.half	.L79-.L78
+	.byte	3,3,1,5,57,9
+	.half	.L80-.L79
+	.byte	1,5,81,9
+	.half	.L81-.L80
+	.byte	1,5,79,9
+	.half	.L82-.L81
+	.byte	1,5,55,9
+	.half	.L83-.L82
+	.byte	1,5,5,9
+	.half	.L84-.L83
+	.byte	1,5,7,7,9
+	.half	.L85-.L84
+	.byte	3,3,1,5,22,9
+	.half	.L86-.L85
+	.byte	1,5,20,9
+	.half	.L87-.L86
+	.byte	1,5,28,9
+	.half	.L88-.L87
+	.byte	3,12,1,5,1,7,9
+	.half	.L2-.L88
+	.byte	3,5,1,7,9
+	.half	.L30-.L2
+	.byte	0,1,1
+.L73:
+	.sdecl	'.debug_ranges',debug,cluster('BackDoorCheck')
+	.sect	'.debug_ranges'
+.L29:
+	.word	-1,.L10,0,.L30-.L10,0,0
+	.sdecl	'.debug_info',debug,cluster('BackDoorSetExtension')
+	.sect	'.debug_info'
+.L31:
+	.word	253
+	.half	3
+	.word	.L32
+	.byte	4,1
+	.byte	'../OpenBLT_Core/backdoor.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Aurix_Tool\\Target_TC275\\My_Bootloader\\Debug\\',0,12,1
+	.word	.L34,.L33
+	.byte	2
+	.word	.L17
+	.byte	3
+	.byte	'BackDoorSetExtension',0,1,182,1,6,1,1,1
+	.word	.L12,.L54,.L11
+	.byte	4
+	.byte	'extension_ms',0,1,182,1,38
+	.word	.L55,.L56
+	.byte	5
+	.word	.L12,.L54
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('BackDoorSetExtension')
+	.sect	'.debug_abbrev'
+.L32:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('BackDoorSetExtension')
+	.sect	'.debug_line'
+.L33:
+	.word	.L90-.L89
+.L89:
+	.half	3
+	.word	.L92-.L91
+.L91:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../OpenBLT_Core/backdoor.c',0,0,0,0,0
+.L92:
+	.byte	5,3,7,0,5,2
+	.word	.L12
+	.byte	3,184,1,1,5,25,9
+	.half	.L93-.L12
+	.byte	1,5,1,9
+	.half	.L94-.L93
+	.byte	3,1,1,7,9
+	.half	.L35-.L94
+	.byte	0,1,1
+.L90:
+	.sdecl	'.debug_ranges',debug,cluster('BackDoorSetExtension')
+	.sect	'.debug_ranges'
+.L34:
+	.word	-1,.L12,0,.L35-.L12,0,0
+	.sdecl	'.debug_info',debug,cluster('BackDoorGetExtension')
+	.sect	'.debug_info'
+.L36:
+	.word	231
+	.half	3
+	.word	.L37
+	.byte	4,1
+	.byte	'../OpenBLT_Core/backdoor.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Aurix_Tool\\Target_TC275\\My_Bootloader\\Debug\\',0,12,1
+	.word	.L39,.L38
+	.byte	2
+	.word	.L17
+	.byte	3
+	.byte	'BackDoorGetExtension',0,1,195,1,12
+	.word	.L55
+	.byte	1,1,1
+	.word	.L14,.L57,.L13
+	.byte	4
+	.word	.L14,.L57
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('BackDoorGetExtension')
+	.sect	'.debug_abbrev'
+.L37:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('BackDoorGetExtension')
+	.sect	'.debug_line'
+.L38:
+	.word	.L96-.L95
+.L95:
+	.half	3
+	.word	.L98-.L97
+.L97:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../OpenBLT_Core/backdoor.c',0,0,0,0,0
+.L98:
+	.byte	5,10,7,0,5,2
+	.word	.L14
+	.byte	3,197,1,1,5,1,9
+	.half	.L99-.L14
+	.byte	3,1,1,7,9
+	.half	.L40-.L99
+	.byte	0,1,1
+.L96:
+	.sdecl	'.debug_ranges',debug,cluster('BackDoorGetExtension')
+	.sect	'.debug_ranges'
+.L39:
+	.word	-1,.L14,0,.L40-.L14,0,0
+	.sdecl	'.debug_info',debug,cluster('BackDoorRestartTimer')
+	.sect	'.debug_info'
+.L41:
+	.word	227
+	.half	3
+	.word	.L42
+	.byte	4,1
+	.byte	'../OpenBLT_Core/backdoor.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Aurix_Tool\\Target_TC275\\My_Bootloader\\Debug\\',0,12,1
+	.word	.L44,.L43
+	.byte	2
+	.word	.L17
+	.byte	3
+	.byte	'BackDoorRestartTimer',0,1,210,1,6,1,1,1
+	.word	.L16,.L58,.L15
+	.byte	4
+	.word	.L16,.L58
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('BackDoorRestartTimer')
+	.sect	'.debug_abbrev'
+.L42:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('BackDoorRestartTimer')
+	.sect	'.debug_line'
+.L43:
+	.word	.L101-.L100
+.L100:
+	.half	3
+	.word	.L103-.L102
+.L102:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../OpenBLT_Core/backdoor.c',0,0,0,0,0
+.L103:
+	.byte	5,7,7,0,5,2
+	.word	.L16
+	.byte	3,212,1,1,5,3,9
+	.half	.L104-.L16
+	.byte	1,5,5,7,9
+	.half	.L105-.L104
+	.byte	3,2,1,5,32,9
+	.half	.L106-.L105
+	.byte	1,5,22,9
+	.half	.L107-.L106
+	.byte	1,5,1,9
+	.half	.L6-.L107
+	.byte	3,2,1,7,9
+	.half	.L45-.L6
+	.byte	0,1,1
+.L101:
+	.sdecl	'.debug_ranges',debug,cluster('BackDoorRestartTimer')
+	.sect	'.debug_ranges'
+.L44:
+	.word	-1,.L16,0,.L45-.L16,0,0
+	.sdecl	'.debug_info',debug,cluster('backdoorOpen')
+	.sect	'.debug_info'
+.L46:
+	.word	195
+	.half	3
+	.word	.L47
+	.byte	4,1
+	.byte	'../OpenBLT_Core/backdoor.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Aurix_Tool\\Target_TC275\\My_Bootloader\\Debug\\',0,12,1,2
+	.word	.L17
+	.byte	3
+	.byte	'backdoorOpen',0,4,64,17
+	.word	.L59
+	.byte	5,3
+	.word	backdoorOpen
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('backdoorOpen')
+	.sect	'.debug_abbrev'
+.L47:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('backdoorOpenTime')
+	.sect	'.debug_info'
+.L48:
+	.word	199
+	.half	3
+	.word	.L49
+	.byte	4,1
+	.byte	'../OpenBLT_Core/backdoor.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Aurix_Tool\\Target_TC275\\My_Bootloader\\Debug\\',0,12,1,2
+	.word	.L17
+	.byte	3
+	.byte	'backdoorOpenTime',0,4,66,19
+	.word	.L55
+	.byte	5,3
+	.word	backdoorOpenTime
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('backdoorOpenTime')
+	.sect	'.debug_abbrev'
+.L49:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('backdoorExtensionTime')
+	.sect	'.debug_info'
+.L50:
+	.word	204
+	.half	3
+	.word	.L51
+	.byte	4,1
+	.byte	'../OpenBLT_Core/backdoor.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Aurix_Tool\\Target_TC275\\My_Bootloader\\Debug\\',0,12,1,2
+	.word	.L17
+	.byte	3
+	.byte	'backdoorExtensionTime',0,4,76,19
+	.word	.L55
+	.byte	5,3
+	.word	backdoorExtensionTime
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('backdoorExtensionTime')
+	.sect	'.debug_abbrev'
+.L51:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_loc',debug,cluster('BackDoorCheck')
+	.sect	'.debug_loc'
+.L9:
+	.word	-1,.L10,0,.L53-.L10
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('BackDoorGetExtension')
+	.sect	'.debug_loc'
+.L13:
+	.word	-1,.L14,0,.L57-.L14
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('BackDoorInit')
+	.sect	'.debug_loc'
+.L7:
+	.word	-1,.L8,0,.L52-.L8
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('BackDoorRestartTimer')
+	.sect	'.debug_loc'
+.L15:
+	.word	-1,.L16,0,.L58-.L16
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('BackDoorSetExtension')
+	.sect	'.debug_loc'
+.L11:
+	.word	-1,.L12,0,.L54-.L12
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L56:
+	.word	-1,.L12,0,.L54-.L12
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L108:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('BackDoorInit')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L108,.L8,.L52-.L8
+	.sdecl	'.debug_frame',debug,cluster('BackDoorCheck')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L108,.L10,.L53-.L10
+	.sdecl	'.debug_frame',debug,cluster('BackDoorSetExtension')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L108,.L12,.L54-.L12
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('BackDoorGetExtension')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L108,.L14,.L57-.L14
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('BackDoorRestartTimer')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L108,.L16,.L58-.L16
+	; Module end

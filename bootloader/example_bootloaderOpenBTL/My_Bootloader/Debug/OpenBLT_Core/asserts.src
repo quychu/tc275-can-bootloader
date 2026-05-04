@@ -1,0 +1,165 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc12560a --dep-file=OpenBLT_Core/asserts.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\App -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Configurations -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\Infra -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\Infra\\\\Platform -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\Infra\\\\Sfr -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\Service -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\Service\\\\CpuGeneric -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Std -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Flash -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Flash\\\\Std -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican\\\\Std -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\OpenBLT_Core -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\OpenBLT_Core\\\\TRICORE_TC2 -ID:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\OpenBLT_Core\\\\TRICORE_TC2\\\\Tasking -g2 -w544 -w557 -t2 --language=+volatile -N0 -O1 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o OpenBLT_Core/asserts.src ../OpenBLT_Core/asserts.c"
+	.compiler_name		"ctc"
+	;source	'../OpenBLT_Core/asserts.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.asserts.AssertFailure',code,cluster('AssertFailure')
+	.sect	'.text.asserts.AssertFailure'
+	.align	2
+	
+	.global	AssertFailure
+; Function AssertFailure
+AssertFailure:	.type	func
+.L2:
+	call	CopService
+.L18:
+	j	.L2
+.L13:
+	
+__AssertFailure_function_end:
+	.size	AssertFailure,__AssertFailure_function_end-AssertFailure
+.L12:
+	; End of function
+	
+	.calls	'AssertFailure','CopService'
+	.extern	CopService
+	.calls	'AssertFailure','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L5:
+	.word	275
+	.half	3
+	.word	.L6
+	.byte	4
+.L4:
+	.byte	1
+	.byte	'../OpenBLT_Core/asserts.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Aurix_Tool\\Target_TC275\\My_Bootloader\\Debug\\',0,12,1
+	.word	.L7
+	.byte	2
+	.byte	'char',0,1,6
+.L14:
+	.byte	3
+	.word	169
+.L16:
+	.byte	2
+	.byte	'unsigned int',0,4,7,4
+	.byte	'CopService',0,1,35,6,1,1,1,1,5,1,3
+	.word	217
+	.byte	6
+	.byte	'__codeptr',0,2,1,1
+	.word	219
+	.byte	6
+	.byte	'blt_char',0,3,46,25
+	.word	169
+	.byte	6
+	.byte	'blt_int32u',0,3,52,25
+	.word	182
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L6:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,15,0,73,19,0,0,4,46,0,3,8,58
+	.byte	15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,5,21,0,54,15,0,0,6,22,0,3,8,58,15,59,15,57,15,73,19,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L7:
+	.word	.L20-.L19
+.L19:
+	.half	3
+	.word	.L22-.L21
+.L21:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\\\Aurix_Tool\\\\Target_TC275\\\\My_Bootloader\\\\OpenBLT_Core\\\\TRICORE_TC2',0,0
+	.byte	'..\\OpenBLT_Core\\cop.h',0,0,0,0
+	.byte	'../OpenBLT_Core/asserts.c',0,0,0,0
+	.byte	'types.h',0,1,0,0,0
+.L22:
+.L20:
+	.sdecl	'.debug_info',debug,cluster('AssertFailure')
+	.sect	'.debug_info'
+.L8:
+	.word	252
+	.half	3
+	.word	.L9
+	.byte	4,1
+	.byte	'../OpenBLT_Core/asserts.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Aurix_Tool\\Target_TC275\\My_Bootloader\\Debug\\',0,12,1
+	.word	.L11,.L10
+	.byte	2
+	.word	.L4
+	.byte	3
+	.byte	'AssertFailure',0,1,44,6,1,1,1
+	.word	.L2,.L13,.L3
+	.byte	4
+	.byte	'file',0,1,44,30
+	.word	.L14,.L15
+	.byte	4
+	.byte	'line',0,1,44,47
+	.word	.L16,.L17
+	.byte	5
+	.word	.L2,.L13
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('AssertFailure')
+	.sect	'.debug_abbrev'
+.L9:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('AssertFailure')
+	.sect	'.debug_line'
+.L10:
+	.word	.L24-.L23
+.L23:
+	.half	3
+	.word	.L26-.L25
+.L25:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../OpenBLT_Core/asserts.c',0,0,0,0,0
+.L26:
+	.byte	5,15,7,0,5,2
+	.word	.L2
+	.byte	3,49,1,5,9,9
+	.half	.L18-.L2
+	.byte	3,125,1,5,1,9
+	.half	.L12-.L18
+	.byte	3,5,0,1,1
+.L24:
+	.sdecl	'.debug_ranges',debug,cluster('AssertFailure')
+	.sect	'.debug_ranges'
+.L11:
+	.word	-1,.L2,0,.L12-.L2,0,0
+	.sdecl	'.debug_loc',debug,cluster('AssertFailure')
+	.sect	'.debug_loc'
+.L3:
+	.word	-1,.L2,0,.L13-.L2
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L15:
+	.word	-1,.L2,0,.L18-.L2
+	.half	1
+	.byte	100
+	.word	0,0
+.L17:
+	.word	-1,.L2,0,.L18-.L2
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L27:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('AssertFailure')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L27,.L2,.L13-.L2
+	; Module end

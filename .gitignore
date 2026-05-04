@@ -1,0 +1,16 @@
+# Build artifacts
+TriCore Debug (TASKING)/
+*.o
+*.elf
+*.hex
+*.map
+*.d
+
+# IDE files
+*.launch
+.settings/
+.metadata/
+
+# Python
+__pycache__/
+*.pyc
