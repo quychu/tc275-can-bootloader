@@ -14,3 +14,5 @@ TriCore Debug (TASKING)/
 # Python
 __pycache__/
 *.pyc
+dummy-app/Libraries/
+dummy-app/TriCore Debug (TASKING)/
