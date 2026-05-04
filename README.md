@@ -19,20 +19,23 @@ A custom bootloader for the **Infineon AURIX TC275 D-Step** microcontroller, bui
 
 ```
 tc275-can-bootloader/
-├── bootloader/                  # Bootloader source (AURIX TC275)
-│   ├── Application/             # Main application layer, app_config.h
-│   ├── Hardware_Layer/          # Custom HAL: HW_CAN, HW_Flash, HW_System, HW_CPU
-│   ├── Core_OpenBLT/            # XCP protocol core + Backdoor logic (trimmed from OpenBLT)
-│   ├── Configuration/           # Linker script: Bootloader_TC275.lsl
-│   ├── Configurations/          # Build configurations (TASKING)
-│   ├── Libraries/               # Infineon iLLD TC27D (read-only)
-│   ├── Documents/               # Reference PDFs
-│   └── example_bootloaderOpenBTL/  # OpenBLT reference port (TRICORE_TC2)
-├── dummy-app/                   # Minimal test application (LED blink) for flash verification
+├── Application/             # Main application layer, app_config.h
+├── Hardware_Layer/          # Custom HAL: HW_CAN, HW_Flash, HW_System, HW_CPU
+├── Core_OpenBLT/            # XCP protocol core + Backdoor logic (trimmed from OpenBLT)
+├── Configuration/           # Linker script: Bootloader_TC275.lsl
+├── Configurations/          # Build configurations (TASKING)
+├── Libraries/               # Infineon iLLD TC27D (read-only)
+├── Documents/               # Reference PDFs
+├── example_bootloaderOpenBTL/  # OpenBLT reference port (TRICORE_TC2)
+├── dummy-app/               # Minimal test application (LED blink) for flash verification
 ├── tools/
-│   └── TC275_Flasher.exe        # GUI flash tool (Windows)
+│   └── TC275_Flasher.exe    # GUI flash tool (Windows)
+├── .cproject                # AURIX Development Studio project file
+├── .project
 └── README.md
 ```
+
+> **Import into ADS:** File → Import → Existing Projects into Workspace → select repo root for bootloader, `dummy-app/` for test app.
 
 ---
 
